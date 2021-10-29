@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Maluzita</title>
+      <link rel="stylesheet" href="./style.css" />
+      <link rel="icon" href="./assets/gato.png">
+   </head>
+   <body>
+      <header>
+         <h1>Meus projetinhos!</h1>
+      </header>
+      <div class='main'>
+         <nav>
+            <h2>Malu Vitoria Barbosa de Melo</h2>
+            <img src="./assets/malu.jpg" class="malufoto"/>
+            <ul>
+               <li>
+                  <a href="./index.html">Sobre</a>
+               </li>
+               <li>
+                  <a href="./projetos.html">Projetos</a>
+               </li>
+               <li>
+                  <a href="./experiencias.html">Experiências</a>
+               </li>
+               <li>
+                  <a href="./contato.html">Contato</a>
+               </li>
+            </ul>
+         </nav>
+         <div class='content'>
+            <div class='sidebyside'>
+               <div class='column'>
+                  <img src="./assets/miolodeagenda.jpg" class="projetofoto"/>
+                  <b class="projetotitulo">Projeto de agendamento para prestação de serviços de assistências técnicas</b>
+                  <p>Com o objetivo de controlar os agendamentos realizados em assistências técnicas, foi construído uma API com controle de horários disponíveis para realização do conserto de equipamentos. 
+                     <br/>A API foi construída utilizando um banco de dados AWS em SQL, Springboot e JPA. As operações implementadas para API foram:
+                  </p>
+                  <ul>
+                     <li>
+                        Agendar atendimento ao cliente
+                     </li>
+                     <li>
+                        Desmarcar agendamento a partir do identificador do agendamento.
+                     </li>
+                     <li>
+                        Consultar agenda de agendamentos de uma data (de uma assistência).
+                     </li>
+                     <li>
+                        Listar assistências técnicas disponíveis (cadastradas).
+                     </li>
+                     <li>
+                        Listar horários livres por data para uma assistência técnica.
+                     </li>
+                  </ul>
+                  <p>E as validações necessárias:</p>
+                  <ul>
+                     <li>
+                        Verificar se o agendamento está sendo realizado para uma assistência técnica válida e se o horário está disponível.
+                     </li>
+                     <li>
+                        Informações com domínio definido devem apenas aceitar valores válidos.
+                     </li>
+                  </ul>
+               </div>
+               <div class="columnspacing"></div>
+               <div class='column'>
+                  <img src="./assets/copinhoamigo.png" class="projetofoto"/>
+                  <b class="projetotitulo">Aproveitamento e gestão de águas pluviais para fins potáveis e não potáveis no Laboratório Integrado de Petróleo e Gás (LITPEG) do campus da UFPE.</b>
+                  <p>Diante das diversas possibilidades de aplicação e utilização da água de chuva, o projeto teve como objetivo avaliar o desempenho do <a href="https://youtu.be/9wm8yDODVeo">DesviUFPE</a> em condições urbanas de poluição atmosférica de forma a identificar quais os poluentes que são incorporados na água da chuva, incluindo a avaliação da quantidade de chuva que deve ser desviada. Isto ampliará a aplicação do DesviUFPE, que foi originalmente desenvolvido para zonas rurais.                    </p>
+                  <p>O projeto tem como objetivo assegurar a disponibilidade e gestão sustentável da água, com perspectivas de universalização do saneamento, destacando-se por contribuir para a universalização do acesso a água em localidade que não convive com a escassez hídrica, mas sim com a ausência de água em quantidade e qualidade sanitária suficiente.</p>
+                  <p>O objetivo principal foi avaliar a sustentabilidade ambiental do uso de água de chuva em edificações públicas, além da influência do uso do DesviUFPE como barreira sanitária para melhoria da qualidade da água utilizada para consumo humano em área urbana.
+                  <p>Objetivos Específicos:</p>
+                  <ul>
+                     <li>
+                        Avaliar o potencial de autossustentabilidade hídrica e utilização da água de chuva em edificações pública para fins potáveis.
+                     </li>
+                     <li>
+                        Analisar o desempenho do DesviUFPE para melhoria da qualidade da água da chuva captada me áreas urbanas da cidade de Recife-PE
+                     </li>
+                     <li>
+                        Determinar qual intervalo de tempo entre dois eventos chuvosos que justifica a realização de novo descarte das primeiras águas de chuva
+                     </li>
+                  </ul>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <audio autoplay loop='infinite'>
+         <source src='./assets/Avril Lavigne - Girlfriend _ (Legendado_Letra).mp3' type="audio/mp3">
+      </audio>
+   </body>
+</html>

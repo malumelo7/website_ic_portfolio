@@ -1,0 +1,191 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("./assets/espacosideral.gif");
+    background-repeat: repeat;
+    cursor:url(./assets/ImmediateCreamyAurochs.webp), auto;
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-left: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+a:hover {
+    cursor:url(./assets/ImmediateCreamyAurochs.webp), auto;
+}
+
+nav {
+    background-color: #008080;
+    z-index: 99999;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-right: 5px dashed white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header {
+    margin: 40px;
+    background-color: #008080;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+}
+
+nav {
+    color: white 
+}
+
+nav > ul > li {
+    list-style-image: url('./assets/planeta.png');
+    text-align: left;
+    margin: 3px 15px 3px 15px;
+}
+
+nav > ul > li > a {
+    color: white;
+}
+
+nav > ul > li > a:hover {
+    color: #e1c699;
+    animation: glow 1s ease-in-out infinite alternate;
+    cursor:url(./assets/ImmediateCreamyAurochs.webp), auto;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+   }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+   }
+}
+
+.malufoto {
+    border: 3px dashed white;
+    border-radius: 100%;
+    width: 75%;
+}
+
+.main {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre {
+    font-size: 20px;
+    max-width: 80%;
+}
+
+.sobre > a {
+    color: white;
+}
+
+.sobre > ul > li {
+    list-style-image: url('./assets/planeta.png');
+    list-style-position: inside;
+}
+
+.sobre > ul > li > span {
+    color: yellow 
+}
+
+.sidebyside {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetofoto {
+    border: 3px dashed white;
+    border-radius: 100%;
+    width: 150px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+}
+
+.columnspacing {
+    width: 20%;
+}
+
+.column > p > a {
+    color: yellow;
+    font-weight: bold;
+}
+
+.column > ul > li {
+    list-style-image: url('./assets/planeta.png');
+    list-style-position: inside;
+}
+
+.projetotitulo {
+    margin-top: 20px;
+    font-size: large;
+}
+
+.tipoexperienciatitulo {
+    background-color: #008080;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.experiencia {
+    padding: 10px;
+    border: 3px dashed white;
+}
+
+.experiencia {
+    list-style-image: url('./assets/planeta.png');
+    list-style-position: inside;
+}
+
+.experienciascaixa {
+    max-width: 60%;
+}
+
+.stardivider {
+    margin: 6px;
+    height: 60px;
+}
+
+.end {
+    height: 50px;
+}
+
+.linhadecontato {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.imagemcontato {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.importante {
+    margin-top: 200px;
+}
